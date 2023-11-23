@@ -5,7 +5,7 @@
     <artifactId>spring-boot-devtools</artifactId>
 </dependency>
 ```
-- @PathVariable is used to get the value of path, and @RequestParam is used to get the value from the query string.
+- @PathVariable is use to get the value of path, and @RequestParam is used to get the value from the query string.
 
 1. Reading Path Variables with @PathVariable annotation. path = http://localhost:8080/users/userId
 ```agsl
@@ -187,13 +187,13 @@ After following above steps. We will add validation in our bean and then use @Va
   
 ```
 
-- Collections.emptyList() is used to create empty list.
+- Collections.emptyList() is use to create empty list.
 - The ResponseEntity.noContent().build() method in Java is used to create a ResponseEntity with an HTTP status of 204 (No Content) and no body
 
 
 
 9. Handle an Exception & Create Custom Error message object.
-For doing so we will create a separate class. 
+For doing so we will create a separate class.  In case of any error in our application our application will come inside this class and It will look for respective error method. 
 
 ```agsl
 @ControllerAdvice
